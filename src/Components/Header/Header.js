@@ -1,11 +1,11 @@
 import React from 'react';
 import './Header.css'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 const Header = () => {
     return (
-        <div>
-
-        </div>
+        <nav className='header text-center text-md-start text-lg-start'>
+            <p>The Meal DB</p>
+        </nav>
     );
 };
 
