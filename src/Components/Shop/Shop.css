@@ -1,0 +1,21 @@
+.shop-container {
+    /* border: 1px solid black; */
+    margin: 5px;
+
+    /* margin: 20px; */
+}
+
+.addedCart-container {
+    background-color: #2b2727;
+    color: #706d6d;
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+
+}
+
+.meals-container {
+    /* padding-left: 20px; */
+    justify-content: center;
+    box-sizing: border-box;
+}
