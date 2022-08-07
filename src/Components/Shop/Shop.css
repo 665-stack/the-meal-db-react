@@ -7,11 +7,18 @@
 
 .addedCart-container {
     background-color: #2b2727;
-    color: #706d6d;
+    color: #E2DCC8;
     text-align: center;
     padding: 40px;
     border-radius: 5px;
 
+}
+
+.addedCart-container p {
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
 }
 
 .meals-container {

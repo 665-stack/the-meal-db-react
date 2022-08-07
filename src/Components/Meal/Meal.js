@@ -10,11 +10,11 @@ const Meal = ({ meal, handleAddedCart }) => {
                 <h3>{meal.strMeal}</h3>
                 <p>Category: {meal.strCategory}</p>
             </div>
-            <div className="add-to-cart">
-                <button onClick={() => handleAddedCart(meal)}>ADD TO CART</button>
+            <div className="btn-container">
+                <button className='add-to-cart' onClick={() => handleAddedCart(meal)}>ADD TO CART</button>
             </div>
-
         </div>
+
     );
 };
 

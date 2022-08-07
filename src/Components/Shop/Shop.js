@@ -16,26 +16,23 @@ const Shop = () => {
         const newMeals = [data.meals];
         setMeals(newMeals[0])
     }
-    const handleAddedCart = (addedMeals) => {
-        let newcart = [];
-        console.log(addedMeals.strMeal);
-        // const exists = addedMeals.find(product => meals.strMeal === addedMeals.strMeal);
-
-        // const newCart = [...meals, addedMeals];
-        // setaAddedMeals(newCart)
+    const handleAddedCart = (meal) => {
+        const newCart = [...addedMeals, meal];
+        setaAddedMeals(newCart)
     }
+    console.log(addedMeals);
     console.log(meals);
-    // console.log(addedMeals);
     return (
         <div className='shop-container row'>
             {/* added cart section */}
             <div className="addedCart-container col-sm-12 col-md-4 col-lg-3">
+                <h3>ADDED MEALS: </h3>
+                <hr />
                 {
-                    // addedMeals.map((meal) => {
-                    //     console.log(meal);
-                    //     <p>{meal}</p>
-                    // })
+                    addedMeals.map((kawon) => <p>{kawon.strMeal}</p>)
                 }
+
+
             </div>
 
             {/* meal section */}
