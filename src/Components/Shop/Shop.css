@@ -22,7 +22,8 @@
 }
 
 .meals-container {
-    /* padding-left: 20px; */
+    margin: 0 auto;
+
     justify-content: center;
     box-sizing: border-box;
 }
